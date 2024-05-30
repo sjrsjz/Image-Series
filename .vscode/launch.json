@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppvsdbg",
+            "name": "CMake: Launch (gdb)",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/OpenCV.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "CMake: 生成",
+
+        },
+    ]
+}
